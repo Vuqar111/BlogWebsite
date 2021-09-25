@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BlogDeatils from "./BlogDeatils";
 import Create from "./Create";
 import NotFound from "./NotFound";
-
+import Liked from "./Liked";
 function App() {
   return (
     <Router>
@@ -18,6 +18,9 @@ function App() {
             </Route>
             <Route exact path="/create">
               <Create />
+            </Route>
+            <Route path="/liked">
+              <Liked />
             </Route>
             <Route exact path="/blogs/:id">
               <BlogDeatils />

@@ -16,6 +16,7 @@ const Navbar = () => {
         >
           New Blog
         </Link>
+        <Link href="/liked">Secilmisler</Link>
       </div>
     </nav>
   );
